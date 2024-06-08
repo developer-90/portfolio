@@ -1,0 +1,33 @@
+{
+  "hosting": {
+    "site": "joseantoniouresdev",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "public": ".",
+    "rewrites": [
+      {
+        "source": "/inicio",
+        "destination": "/inicio.html"
+      },
+      {
+        "source": "/porqueyo",
+        "destination": "/porqueyo.html"
+      },
+      {
+        "source": "/portfolio",
+        "destination": "/portfolio.html"
+      },
+      {
+        "source": "/contacto",
+        "destination": "/contacto.html"
+      },
+      {
+        "source": "**",
+        "destination": "/404.html"
+      }
+    ]
+  }
+}

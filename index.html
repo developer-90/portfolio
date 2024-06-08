@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- HOJA DE ESTILOS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> <!-- favicon -->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/home.png" type="image/x-icon">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <!-- MENU NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-info bg-info border-bottom border-body">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/icono-t_transparente3.png" alt="logo" width="50"
+                    height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="porqueyo.html">¿Por qué yo?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN MENU NAVBAR -->
+
+    <!-- HERO SECTION -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <div class="container">
+
+            </div>
+            <h1 class="mt-3" style="font-weight: bold;">¡Bienvenid@ a<br> mi Mundo Digital!</h1>
+            <p class="lead">Explora mi viaje en el desarrollo y descubre cómo transformo ideas en soluciones
+                innovadoras.</p>
+            <hr class="division">
+        </div>
+    </section>
+    <!-- FIN HERO SECTION -->
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi">
+        <div class="container">
+            <h2 class="mb-2 ml-5">Sobre Mí</h2>
+            <div class="card" style="border-radius: 15px; box-shadow: 10px 10px 10px rgba(38, 0, 255, 0.1);">
+                <div class="card-body">
+                    <p class="lead" style="font-family: 'Montserrat', sans-serif;">¡Hola! Soy <em><strong>José Antonio
+                                Ures Teba</strong></em></p>
+                    <p class="lead" style="font-family: 'Montserrat', sans-serif;">Desde que nací,
+                        mi vida ha sido un apasionante viaje impulsado por la tecnología. En 2017, decidí
+                        seguir mi vocación y me sumergí en el mundo de la informática, completando con éxito un Ciclo
+                        Formativo de Grado Medio en Sistemas Microinformáticos y Redes en 2019.</p>
+                    <p class="lead" style="font-family: 'Montserrat', sans-serif;">Después de trabajar en diversos
+                        roles, incluyendo un año como técnico de redes, comprendí la importancia de la formación
+                        continua. A pesar de los desafíos, continué mi desarrollo profesional. En 2022, di un paso más
+                        al embarcarme en un Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones
+                        Multiplataforma.</p>
+                    <p class="lead" style="font-family: 'Montserrat', sans-serif;">¿Quieres saber sobre mi? <a
+                            href="porqueyo.html">¿Por qué yo?</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SOBRE MÍ -->
+
+    <!-- PROYECTOS DESTACADOS -->
+    <section id="proyectos" class="mt-5">
+        <div class="container">
+            <h2 class="mb-4 ml-5">Proyectos Destacados</h2>
+
+            <!-- Proyectos de Aplicaciones en GitHub -->
+            <div class="card" style="border-radius: 15px; box-shadow: 10px 10px 10px rgba(38, 0, 255, 0.1);">
+                <div class="card-body">
+                    <h3 class="card-title" style="font-size: 1.5rem;">Aplicaciones en GitHub</h3>
+                    <p class="card-text lead">
+                        Explora mis aplicaciones y proyectos de código abierto en GitHub. Estos proyectos reflejan mi
+                        habilidad y pasión por el desarrollo de software.
+                    </p>
+                    <button id="githubBtn"><a href="https://github.com/developer-90">Ver detalles</a></button>
+                </div>
+            </div>
+
+            <!-- Proyectos Web -->
+            <div class="card mt-4" style="border-radius: 15px; box-shadow: 10px 10px 10px rgba(38, 0, 255, 0.1);">
+                <div class="card-body">
+                    <h3 class="card-title" style="font-size: 1.5rem;">Proyectos Web</h3>
+                    <p class="card-text lead">
+                        Descubre mis proyectos web, cada uno diseñado con pasión y dedicación. Puedes explorar más
+                        detalles y ver cómo transformo ideas en experiencias digitales.
+                    </p>
+                    <button id="btn" onclick="window.location.href='portfolio.html';">Ver detalles</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN PROYECTOS DESTACADOS -->
+
+    <!-- FOOTER -->
+    <footer class="footer mt-5 py-3">
+        <div class="container text-center">
+            <span style="font-weight: bold; color: white;">© 2023 Jose Antonio Ures Teba</span>
+        </div>
+    </footer>
+    <!-- FIN FOOTER -->
+    <script src="JS/app.ja"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
